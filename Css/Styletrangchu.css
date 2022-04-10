@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header#banner{
+    width: 100%;
+}
+
+header#banner > img {
+    width: 100%;
+    height: 400px;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+b {
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+span {
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div#content {
+    margin: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+div#content > h2 {
+    display: flex;
+}
+
+div.sanphamnoibat {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+div.sanpham {
+    padding: 0 15px;
+    width: 25%;
+}
+
+div.sanpham > a > img{
+    border-radius: 20px;
+}
+
+div.sanpham p{
+    text-align: center;
+    width: 100%;
+}
+
+div.sanpham p.giatien {
+    color: red;
+    border: 2px red solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px auto;
+    width: 50%;
+}
+
+div.butgifset {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+h2 p {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+div.buttheochude {
+    display: flex;
+    margin-top: 30px;
+}
+
+div.butnam {
+    display: flex;
+    margin-top: 30px;
+}
+
+div.butnu {
+    display: flex;
+    margin-top: 30px;
+}
+
+section.soluoc {
+    background-color: dimgrey;
+    margin: 30px 0;
+}
+
+section.soluoc > div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 15px;
+}
+
+section.soluoc > div > div.vanban {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section.soluoc > div > div.vanban > p {
+    text-align: left;
+}
+
+section.soluoc > div > div.nutgioithieu {
+    width: 20%;
+}
+
+section.soluoc > div > div.nutgioithieu {
+    margin: auto;
+    
+}
+
+section.soluoc > div > div.nutgioithieu > p > a{
+    border: 3px white solid;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+div.dichvu > div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.dichvu > div > div {
+    display: flex;
+}
+
+div.dichvu > div >  div > img {
+    width: 25%;
+    padding: 15px;
+}
+
+div#bookmark > a {
+    border: 2px grey solid;
+    padding: 17px 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 30px;
+}

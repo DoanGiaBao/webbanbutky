@@ -1,0 +1,103 @@
+header {
+    background-color:darkred;
+}
+
+header.phu > div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    padding: 30px;
+}
+
+header.phu > div> h2 {
+    text-transform: uppercase;
+    color: white;
+    display: block;
+}
+
+header.phu > div> h2 > a {
+    color: white;
+}
+
+header.phu > div> form > select{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    width: auto;
+}
+
+article { 
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article > aside#left {
+    width: 80%;
+    padding: 10px;
+}
+
+div.cacsanpham{
+    display: flex;
+    width: 100%;
+}
+
+div.sanpham {
+    width: 25%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+div.sanpham > img {
+    width: 180px;
+    height: 200px;
+}
+
+div.sanpham p{
+    text-align: center;
+    width: 100%;
+}
+
+article > aside#right {
+    width: 20%;
+    padding: 10px;
+}
+
+article > aside#right > h3 {
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+article > aside#right > div {
+    display: flex;
+}
+
+article > aside#right > div > div.hinh{
+    padding:0 5px; 
+}
+
+
+p.danhgia {
+    color: gold;
+}
+
+p.giatien {
+    color: red;
+    border: 2px red solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px auto;
+    width: auto;
+}
+
+div#bookmark > a {
+    border: 2px grey solid;
+    padding: 17px 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 30px;
+}

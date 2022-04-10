@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header#dautrang {
+    background-color: black;
+    display: flex; 
+}
+
+header#dautrang > div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+header#dautrang > div > div > ul {
+    display: flex;
+}
+header#dautrang > div > div > ul > li {
+    list-style-type: none;
+}
+
+header#dautrang > div > div > ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    display: block;
+}
+
+header#dautrang > div > div > ul > li > a:hover{
+    background-color: red;
+}
+header#dautrang > div > div#hotline {
+    color: white;
+    padding: 20px;
+    margin-left: auto;
+}
+nav {
+    background-color: lightgray;
+    width: 100%;
+}
+
+nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav > div {
+    width: 80%;
+    margin: 0 auto;
+    min-height: auto;
+    height: 60px;
+}
+
+nav > div > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul.sub-menu {
+    opacity: 0;
+    list-style-type: none;
+}
+
+li:hover .sub-menu {
+    opacity: 1;
+    text-align: center;
+    width: 94px;
+    height: auto;
+    border: 2px none;
+    border-radius: 10px;
+    background-color: rgb(247, 243, 243);
+}
+ul.sub-menu > li {
+    margin: 10px 0;
+}
+
+nav > div > ul >li:nth-last-child(1) {
+    padding-left: 200px;
+}
+
+nav > div > ul >li >a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: block;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+nav > div > ul > li > a::after {
+    content:"";
+    height: 3px;
+    width: 100%;
+    transform:scaleX(0);
+    position:absolute;
+    top: 0px;
+    background-color: red;
+    display: block;
+}
+
+nav > div> ul > li > a:hover::after{
+    transform: scaleX(1);
+}

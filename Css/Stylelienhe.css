@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.diachi {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 60px;
+}
+
+section.diachi > div >h2 {
+    text-align: center;
+}
+ 
+section.diachi > div {
+    width: 50%;
+}
+
+section.diachi > iframe {
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+
+footer > div.lienhe p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+footer {
+    margin-top: 95px;
+    background-color: lightgray;
+}
+footer >div.lienhe {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+footer >div.lienhe > div {
+    width: 25%;
+    padding: 3%;
+}
+
+div.gioithieu  a {
+    color: steelblue;
+}
+
